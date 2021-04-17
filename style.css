@@ -1,0 +1,32 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+.bg {
+    /* The image used */
+    background-image: url("background.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-text {
+    font-family: 'Zen Dots'; 
+    font-size: 64px; 
+    color: azure; 
+    -webkit-text-stroke: 2px black;
+}
+
+.Aligner {
+    display: flex;
+    align-items: center;
+    min-height: 24em;
+    justify-content: center;
+}
